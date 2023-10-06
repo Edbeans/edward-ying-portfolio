@@ -181,6 +181,12 @@ section {
     width: 258px;
 }
 
+/* .section__pic-container {
+    display: flex; 
+    height: 300px;
+    width: 300px;
+} */
+
 
 .section__text__p0 {
     /* display: flex;
@@ -231,6 +237,8 @@ section {
 .about-me-pic {
     height: 288px;
     width: 480px; 
+    /* height: 250px; 
+    width: 442px; */
 }
 
 /* .about-text-container {
