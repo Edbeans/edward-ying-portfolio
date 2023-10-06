@@ -1,8 +1,139 @@
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-containers {
+        flex-wrap: wrap; 
+    }
+} */
+
+
+/* @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none; 
     }
     #hamburger-nav {
         display: flex;
+    }
+    #profile, .section-container {
+        display: block;
+    }
+    section, .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .section__text__p1 {
+        font-size: 2.8rem;
+    }
+    .resume-contact-container {
+        font-size: 0.60rem;
+    }
+
+    #about {
+        display: block;
+    }
+
+    .about-me-pic {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .about-text-container {
+        margin: 0 auto 2rem;
+        padding-right: 100px;
+    }
+
+    .about__text__p2 {
+        width: 200px;
+        font-size: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    #projects {
+        display: block; 
+        flex-wrap: wrap;
+    }
+} */
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+        /* z-index: 1; */
+    }
+    #profile {
+        flex-wrap: wrap;
+        margin-bottom: 6rem;
+        height: 83vh;
+        /* z-index: 0; */
+    }
+    .section__text__p1 {
+        margin-left: 2rem;
+    }
+    .section__text__p2 {
+        margin-left: 2rem;
+    }
+    .resume-contact-container {
+        font-size: 0.8rem;
+        margin-left: 2rem;
+    }
+    #about {
+        flex-wrap: wrap; 
+        padding-top: 50vh;
+        margin: auto 0;
+        /* width: fit-content; */
+
+    }
+    .about-me-pic {
+        height: 200px;
+        width: 400px;
+    }
+    .about-text-container {
+        width: 400px;
+        margin-top: -55%;
+    }
+    #projects {
+        /* margin-top: 150%; */
+        padding-top: 150%;
+        margin: auto 0;
+        width: fit-content;
+    }
+    .project-section-container {
+        display: block;
+        width: 400px;
+    }
+    #inspirations {
+        padding-top: 380%;
+        margin: auto 0;
+        width: fit-content;
+    }
+    .inspiration-section-container {
+        display: block;
+        width: 400px;
+    }
+
+    #contact {
+        margin-top: 480%;
+    }
+    .footer-links li {
+        font-size: 0.6rem;
+        margin-left: 2%;
+    }
+    .footer-section-text {
+        font-size: 0.6rem;
+        width: 100px;
     }
 }

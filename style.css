@@ -43,7 +43,7 @@ nav {
 
 .nav-links a {
     font-weight: ligher;   
-    color: rgb(77, 77, 77); 
+    color: rgb(0, 0, 0); 
 }
 
 a {
@@ -99,7 +99,7 @@ a:hover {
     position: absolute;
     top: 100%;
     right: 0; 
-    background-color: rgb(34, 34, 34); 
+    background-color: rgb(69, 69, 69); 
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -224,7 +224,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
-    padding-top: 100px;
+    padding-top: 200px;
     margin-bottom: 8rem;
 }
 
@@ -271,6 +271,67 @@ section {
     margin: 1rem;
 }
 
+/* INSPIRATION SECTION  */
+.inspiration-section-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.88rem; 
+    margin-bottom: 0.38rem; 
+}
 
+.inspiration-section-container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
+.inspiration-section-container img {
+    height: 450px;
+    width: 335px;
+}
 
+.inspiration-img {
+    margin: 1rem; 
+}
+
+.inspiration-description {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspo-title {
+    font-style: italic;
+}
+
+/* CONTACT SECTION  */
+.contact-section-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.88rem; 
+    margin-bottom: 0.38rem; 
+    margin-top: 100px; 
+}
+
+.contact-info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.footer-section-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem; 
+    margin-bottom: 0.38rem; 
+    margin-top: 100px; 
+}
